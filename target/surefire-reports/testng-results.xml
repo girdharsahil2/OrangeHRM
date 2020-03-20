@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="2" total="3" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="59925" started-at="2020-03-20T00:43:43Z" finished-at="2020-03-20T00:44:43Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="59925" started-at="2020-03-20T00:43:43Z" finished-at="2020-03-20T00:44:43Z">
+      <class name="OrangeHRM_TestCases.Login_Valid_Test">
+        <test-method status="PASS" signature="Setuptest()[pri:0, instance:OrangeHRM_TestCases.Login_Valid_Test@3551a94]" name="Setuptest" is-config="true" duration-ms="4521" started-at="2020-03-19T19:43:43Z" finished-at="2020-03-19T19:43:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setuptest -->
+        <test-method status="PASS" signature="Login_Valid()[pri:0, instance:OrangeHRM_TestCases.Login_Valid_Test@3551a94]" name="Login_Valid" duration-ms="8136" started-at="2020-03-19T19:43:47Z" finished-at="2020-03-19T19:43:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login_Valid -->
+        <test-method status="PASS" signature="teardownmethod(org.testng.ITestResult)[pri:0, instance:OrangeHRM_TestCases.Login_Valid_Test@3551a94]" name="teardownmethod" is-config="true" duration-ms="880" started-at="2020-03-19T19:43:55Z" finished-at="2020-03-19T19:43:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Login_Valid status=SUCCESS method=Login_Valid_Test.Login_Valid()[pri:0, instance:OrangeHRM_TestCases.Login_Valid_Test@3551a94] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardownmethod -->
+        <test-method status="PASS" signature="teardowntest()[pri:0, instance:OrangeHRM_TestCases.Login_Valid_Test@3551a94]" name="teardowntest" is-config="true" duration-ms="96" started-at="2020-03-19T19:43:56Z" finished-at="2020-03-19T19:43:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardowntest -->
+      </class> <!-- OrangeHRM_TestCases.Login_Valid_Test -->
+      <class name="OrangeHRM_TestCases.Logout_Test">
+        <test-method status="PASS" signature="Setuptest()[pri:0, instance:OrangeHRM_TestCases.Logout_Test@5a61f5df]" name="Setuptest" is-config="true" duration-ms="4857" started-at="2020-03-19T19:43:56Z" finished-at="2020-03-19T19:44:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setuptest -->
+        <test-method status="FAIL" signature="Logout_OrangeCRM_Test()[pri:0, instance:OrangeHRM_TestCases.Logout_Test@5a61f5df]" name="Logout_OrangeCRM_Test" duration-ms="31618" started-at="2020-03-19T19:44:01Z" finished-at="2020-03-19T19:44:33Z">
+          <exception class="org.openqa.selenium.ElementNotInteractableException">
+            <message>
+              <![CDATA[element not interactable
+  (Session info: chrome=80.0.3987.149)
+Build info: version: '4.0.0-alpha-4', revision: 'c2d955b49e'
+System info: host: 'Sahils-MacBook.local', ip: 'fe80:0:0:0:18b8:7480:69f4:3e07%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_241'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.149, chrome: {chromedriverVersion: 80.0.3987.16 (320f6526c1632..., userDataDir: /var/folders/ph/x_0_wbsd6tn...}, goog:chromeOptions: {debuggerAddress: localhost:56416}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: c66effa3ef606970ddf0a58c94de8015]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=80.0.3987.149)
+Build info: version: '4.0.0-alpha-4', revision: 'c2d955b49e'
+System info: host: 'Sahils-MacBook.local', ip: 'fe80:0:0:0:18b8:7480:69f4:3e07%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_241'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.149, chrome: {chromedriverVersion: 80.0.3987.16 (320f6526c1632..., userDataDir: /var/folders/ph/x_0_wbsd6tn...}, goog:chromeOptions: {debuggerAddress: localhost:56416}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: c66effa3ef606970ddf0a58c94de8015
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:196)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:129)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:161)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:582)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:316)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:85)
+	at OrangeHRM_Pages.Homepage.click_Logoutlink(Homepage.java:32)
+	at OrangeHRM_Utility.Helper.LogoutMethod(Helper.java:66)
+	at OrangeHRM_TestCases.Logout_Test.Logout_OrangeCRM_Test(Logout_Test.java:19)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementNotInteractableException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logout_OrangeCRM_Test -->
+        <test-method status="PASS" signature="teardownmethod(org.testng.ITestResult)[pri:0, instance:OrangeHRM_TestCases.Logout_Test@5a61f5df]" name="teardownmethod" is-config="true" duration-ms="571" started-at="2020-03-19T19:44:33Z" finished-at="2020-03-19T19:44:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Logout_OrangeCRM_Test status=FAILURE method=Logout_Test.Logout_OrangeCRM_Test()[pri:0, instance:OrangeHRM_TestCases.Logout_Test@5a61f5df] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardownmethod -->
+        <test-method status="PASS" signature="teardowntest()[pri:0, instance:OrangeHRM_TestCases.Logout_Test@5a61f5df]" name="teardowntest" is-config="true" duration-ms="80" started-at="2020-03-19T19:44:33Z" finished-at="2020-03-19T19:44:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardowntest -->
+      </class> <!-- OrangeHRM_TestCases.Logout_Test -->
+      <class name="OrangeHRM_TestCases.Users_functionality_Test">
+        <test-method status="PASS" signature="setupsuite()[pri:0, instance:OrangeHRM_TestCases.Users_functionality_Test@6615435c]" name="setupsuite" is-config="true" duration-ms="217" started-at="2020-03-19T19:43:42Z" finished-at="2020-03-19T19:43:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupsuite -->
+        <test-method status="PASS" signature="Setuptest()[pri:0, instance:OrangeHRM_TestCases.Users_functionality_Test@6615435c]" name="Setuptest" is-config="true" duration-ms="4165" started-at="2020-03-19T19:44:33Z" finished-at="2020-03-19T19:44:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setuptest -->
+        <test-method status="FAIL" signature="userspage_navigation_test()[pri:0, instance:OrangeHRM_TestCases.Users_functionality_Test@6615435c]" name="userspage_navigation_test" duration-ms="4304" started-at="2020-03-19T19:44:38Z" finished-at="2020-03-19T19:44:42Z">
+          <exception class="org.openqa.selenium.interactions.MoveTargetOutOfBoundsException">
+            <message>
+              <![CDATA[move target out of bounds
+  (Session info: chrome=80.0.3987.149)
+Build info: version: '4.0.0-alpha-4', revision: 'c2d955b49e'
+System info: host: 'Sahils-MacBook.local', ip: 'fe80:0:0:0:18b8:7480:69f4:3e07%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_241'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.149, chrome: {chromedriverVersion: 80.0.3987.16 (320f6526c1632..., userDataDir: /var/folders/ph/x_0_wbsd6tn...}, goog:chromeOptions: {debuggerAddress: localhost:56444}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: b693cdee2cd07f7b705efcee8ff11174]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.interactions.MoveTargetOutOfBoundsException: move target out of bounds
+  (Session info: chrome=80.0.3987.149)
+Build info: version: '4.0.0-alpha-4', revision: 'c2d955b49e'
+System info: host: 'Sahils-MacBook.local', ip: 'fe80:0:0:0:18b8:7480:69f4:3e07%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_241'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.149, chrome: {chromedriverVersion: 80.0.3987.16 (320f6526c1632..., userDataDir: /var/folders/ph/x_0_wbsd6tn...}, goog:chromeOptions: {debuggerAddress: localhost:56444}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: b693cdee2cd07f7b705efcee8ff11174
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:196)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:129)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:161)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:582)
+	at org.openqa.selenium.remote.RemoteWebDriver.perform(RemoteWebDriver.java:652)
+	at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:613)
+	at org.openqa.selenium.interactions.Actions.perform(Actions.java:569)
+	at OrangeHRM_TestCases.Users_functionality_Test.userspage_navigation_test(Users_functionality_Test.java:27)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.interactions.MoveTargetOutOfBoundsException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userspage_navigation_test -->
+        <test-method status="PASS" signature="teardownmethod(org.testng.ITestResult)[pri:0, instance:OrangeHRM_TestCases.Users_functionality_Test@6615435c]" name="teardownmethod" is-config="true" duration-ms="589" started-at="2020-03-19T19:44:42Z" finished-at="2020-03-19T19:44:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=userspage_navigation_test status=FAILURE method=Users_functionality_Test.userspage_navigation_test()[pri:0, instance:OrangeHRM_TestCases.Users_functionality_Test@6615435c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardownmethod -->
+        <test-method status="PASS" signature="teardowntest()[pri:0, instance:OrangeHRM_TestCases.Users_functionality_Test@6615435c]" name="teardowntest" is-config="true" duration-ms="87" started-at="2020-03-19T19:44:43Z" finished-at="2020-03-19T19:44:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardowntest -->
+      </class> <!-- OrangeHRM_TestCases.Users_functionality_Test -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>
