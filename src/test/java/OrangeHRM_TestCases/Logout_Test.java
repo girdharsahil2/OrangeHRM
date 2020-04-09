@@ -2,6 +2,8 @@ package OrangeHRM_TestCases;
 
 import org.testng.annotations.Test;
 import org.testng.annotations.Test;
+import org.testng.annotations.Test;
+import org.testng.annotations.Test;
 
 import OrangeHRM_Pages.Homepage;
 import OrangeHRM_Utility.BaseClass;

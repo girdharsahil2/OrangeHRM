@@ -1,17 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
-  <test thread-count="5" name="Default test(failed)">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="OrangeHRM_TestCases.Users_functionality_Test">
+      <class name="OrangeHRM_TestCases.Admin_Users_Test">
         <methods>
-          <include name="teardownmethod"/>
           <include name="userspage_navigation_test"/>
+          <include name="AddNew_SystemUser"/>
+          <include name="Search_System_User"/>
+          <include name="teardownmethod"/>
           <include name="teardowntest"/>
           <include name="setupsuite"/>
           <include name="Setuptest"/>
         </methods>
-      </class> <!-- OrangeHRM_TestCases.Users_functionality_Test -->
+      </class> <!-- OrangeHRM_TestCases.Admin_Users_Test -->
+      <class name="OrangeHRM_TestCases.Logout_Test">
+        <methods>
+          <include name="teardownmethod"/>
+          <include name="teardowntest"/>
+          <include name="setupsuite"/>
+          <include name="Logout_OrangeCRM_Test"/>
+          <include name="Setuptest"/>
+        </methods>
+      </class> <!-- OrangeHRM_TestCases.Logout_Test -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

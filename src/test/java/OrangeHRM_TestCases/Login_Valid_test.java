@@ -2,6 +2,10 @@ package OrangeHRM_TestCases;
 
 import org.testng.annotations.Test;
 import org.testng.Assert;
+import org.testng.annotations.Test;
+import org.testng.AssertJUnit;
+import org.testng.annotations.Test;
+import org.testng.Assert;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 

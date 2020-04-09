@@ -3,15 +3,16 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="OrangeHRM_TestCases.Users_functionality_Test">
+      <class name="OrangeHRM_TestCases.Admin_Users_Test">
         <methods>
+          <include name="AddNew_SystemUser"/>
+          <include name="Search_System_User"/>
           <include name="teardownmethod"/>
-          <include name="userspage_navigation_test"/>
           <include name="teardowntest"/>
           <include name="setupsuite"/>
           <include name="Setuptest"/>
         </methods>
-      </class> <!-- OrangeHRM_TestCases.Users_functionality_Test -->
+      </class> <!-- OrangeHRM_TestCases.Admin_Users_Test -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

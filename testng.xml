@@ -5,7 +5,10 @@
     <classes>
       <class name="OrangeHRM_TestCases.Login_Valid_Test"/>
       <class name="OrangeHRM_TestCases.Logout_Test"/>
-      <class name="OrangeHRM_TestCases.Users_functionality_Test"/>
+      <class name="OrangeHRM_TestCases.Dashboard_Test"/>
+      <class name="OrangeHRM_TestCases.PIM_EmployeeList_Test"/>
+      <class name="OrangeHRM_TestCases.Admin_Job_JobTitles_Test"/>
+      <class name="OrangeHRM_TestCases.Admin_Users_Test"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

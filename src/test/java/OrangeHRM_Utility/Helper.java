@@ -42,7 +42,8 @@ public class Helper extends BaseClass{
 		return CustomFormat.format(currentDate);
 	}
 	
-	public static void LoginMethod(WebDriver driver) {
+	public static void LoginMethod(WebDriver driver) 
+	{
 		System.out.println("driver = "+driver);
 		LoginPage login = new LoginPage(driver);
 

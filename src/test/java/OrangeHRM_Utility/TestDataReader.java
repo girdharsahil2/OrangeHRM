@@ -34,4 +34,8 @@ public class TestDataReader {
 	public String getPassword_login() {
 		return prop.getProperty("password");
 	}
+	
+	public String getSystem_Users_Username_Search() {
+		return prop.getProperty("System_Users_Username_Search");
+	}
 }

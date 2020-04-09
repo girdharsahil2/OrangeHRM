@@ -6,7 +6,8 @@ import org.openqa.selenium.WebElement;
 
 public class Dashboardpage {
 
-	WebDriver driver = null;
+	WebDriver driver;
+	
 	By Dashboard_text_loc = By.xpath("//div[@class='head']");
 	
 	public Dashboardpage(WebDriver driver)
